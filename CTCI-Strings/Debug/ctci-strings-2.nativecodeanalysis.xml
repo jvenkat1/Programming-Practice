@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\jvenkat1\documents\visual studio 2015\projects\ctci-strings\ctci-strings\</FILEPATH>
+      <FILENAME>ctci-strings-2.cpp</FILENAME>
+      <LINE>44</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'str'. </DESCRIPTION>
+    <FUNCTION>reverseString</FUNCTION>
+    <DECORATED>?reverseString@@YAXPAD@Z</DECORATED>
+    <FUNCLINE>30</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\jvenkat1\documents\visual studio 2015\projects\ctci-strings\ctci-strings\</FILEPATH>
+        <FILENAME>ctci-strings-2.cpp</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\jvenkat1\documents\visual studio 2015\projects\ctci-strings\ctci-strings\</FILEPATH>
+        <FILENAME>ctci-strings-2.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'str' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\jvenkat1\documents\visual studio 2015\projects\ctci-strings\ctci-strings\</FILEPATH>
+        <FILENAME>ctci-strings-2.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\jvenkat1\documents\visual studio 2015\projects\ctci-strings\ctci-strings\</FILEPATH>
+        <FILENAME>ctci-strings-2.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'str&lt;end')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\jvenkat1\documents\visual studio 2015\projects\ctci-strings\ctci-strings\</FILEPATH>
+        <FILENAME>ctci-strings-2.cpp</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'str' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

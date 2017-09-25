@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  CTCI-StringCompression.cpp
+c:\users\jvenkat1\documents\visual studio 2015\projects\ctci-strings\ctci-stringcompression\ctci-stringcompression.cpp(16): warning C4018: '<': signed/unsigned mismatch
+  Running Code Analysis for C/C++...
+  Generating Code...
+cl : Command line warning D9028: minimal rebuild failure, reverting to normal build
+  CTCI-StringCompression.vcxproj -> C:\Users\jvenkat1\Documents\Visual Studio 2015\Projects\CTCI-Strings\Debug\CTCI-StringCompression.exe

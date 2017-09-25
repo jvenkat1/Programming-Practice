@@ -1,0 +1,5 @@
+﻿  string-remove-consecutive-chars.cpp
+c:\users\jvenkat1\documents\visual studio 2015\projects\ctci-strings\string-remove-consecutive-chars\string-remove-consecutive-chars.cpp(21): warning C4018: '<': signed/unsigned mismatch
+  stdafx.cpp
+  Running Code Analysis for C/C++...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(356,5): error MSB6003: The specified task executable "CL.exe" could not be run. Could not find a part of the path 'C:\Users\jvenkat1\Documents\Visual Studio 2015\Projects\CTCI-Strings\CTCI-Strings\Debug\string-r.C60E195C.tlog\CL.write.1.tlog'.

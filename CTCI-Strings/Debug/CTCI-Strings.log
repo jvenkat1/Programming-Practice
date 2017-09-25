@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  CTCI-Strings5.cpp
+  CTCI-Strings-6-Ver2.cpp
+  CTCI-Strings-4.cpp
+c:\users\jvenkat1\documents\visual studio 2015\projects\ctci-strings\ctci-strings\ctci-strings-4.cpp(55): warning C4018: '<': signed/unsigned mismatch
+  CTCI-Strings-3.cpp
+  CTCI-Strings-2.cpp
+  CTCI-Strings-1.cpp
+c:\users\jvenkat1\documents\visual studio 2015\projects\ctci-strings\ctci-strings\ctci-strings-1.cpp(40): warning C4018: '<': signed/unsigned mismatch
+  Running Code Analysis for C/C++...

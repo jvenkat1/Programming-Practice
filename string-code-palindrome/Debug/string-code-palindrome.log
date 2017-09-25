@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (string-code-palindrome.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  string-code-permutation.cpp
+  stdafx.cpp
+  Running Code Analysis for C/C++...
+  Generating Code...
+  string-code-palindrome.vcxproj -> C:\Users\jvenkat1\Documents\Visual Studio 2015\Projects\CTCI-Strings\Debug\string-code-permutation.exe
